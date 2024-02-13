@@ -44,7 +44,7 @@ public class LimitInterceptor implements HandlerInterceptor {
 
     private Bucket createNewBucket() {
         return Bucket4j.builder()
-                .addLimit(Bandwidth.simple(3, Duration.ofHours(1)))
+                .addLimit(Bandwidth.simple(10, Duration.ofHours(1)))
                 .build();
     }
 
