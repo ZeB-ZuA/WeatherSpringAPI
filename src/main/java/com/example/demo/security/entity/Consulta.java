@@ -50,4 +50,5 @@ public class Consulta implements Serializable {
     private Usuario usuario;
 
 
+    
 }
